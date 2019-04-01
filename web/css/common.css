@@ -1,0 +1,48 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+
+body {
+	padding-top: 50px;
+}
+
+.footer { 
+	border-top-style: solid;
+	border-top-color: #eee;
+	border-top-width: 1px;
+	padding-top: 20px;
+	margin-top: 20px;
+	padding-bottom: 20px;
+	line-height: 1.6;
+}
+
+.title {
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+.title .title_content {
+	text-align: center;
+}
+
+.title .title_content .title_image {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 40%;
+}
+
+.box {
+	display: -webkit-flex;
+	/* Safari */
+	display: flex;
+}
+
+.color_red {
+	color: #ff534d;
+}
+
+.color_white {
+	color: #fff;
+}
+
+.bg_grey {
+	background: #eee;
+}
