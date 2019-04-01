@@ -1,0 +1,7 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+
+@media screen and (min-width: 992px) {
+	.caption{
+		min-height: 168px;
+	}
+}

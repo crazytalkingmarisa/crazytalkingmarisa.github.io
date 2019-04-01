@@ -1,0 +1,72 @@
+{
+  "navigator": {
+    "title": "Marisa | Chinese Teacher",
+    "item": {
+      "home": "Home",
+      "course": "Course",
+      "other_services": "Other Services",
+      "sign_up_contact": "Sign up | Contact"
+    }
+  },
+  "slide": {
+    "page1": {
+      "p1": "Take 1 on 1 lessons with<br/>a private Chinese teacher<br/>on Wechat or Skype",
+      "p2": "Get your own personal online Chinese teacher. <br/>Great for individuals, businesses,<br/>and children.",
+      "button1": "CONTACT US"
+    },
+    "page2": {
+      "p1": "Take Your Chinese Lessons Any<br/>Time Anywhere in GuangZhou",
+      "p2": "We provide family teach for student<br/>in GuangZhou",
+      "button1": "CONTACT US"
+    }
+  },
+  "aboutUs": {
+    "title": "Who we are?",
+    "p1": "Founded in 2016, Marisa Chinese School is an international Chinese school. It is committed to providing the most professional and satisfying Chinese language teaching services to foreign friends around the world.",
+    "p2": "We have professional and powerful teachers, foreign teachers from all over the world who are native speakers of English, German, French, Spanish, etc., as well as Chinese majors from Chinese major universities, Spanish majors. , French majors, Japanese majors and other graduated teachers, as well as a group of outstanding Chinese teachers with experience in teaching abroad. At present, students come from Guangzhou consulates, foreign-funded business people, models, artists, foreign teachers, etc."
+  },
+  "comment": {
+    "title": "What our students say about us?"
+  },
+  "course": {
+    "title": "Course",
+    "item1": {
+      "title": "HSK exam tutor",
+      "content": "1.HSK test-taking skills<br/>2.Grammartical structure<br/>3.Classification of listening,speaking,reading and writing practice<br/>4.Simulation test"
+    },
+    "item2": {
+      "title": "Beginner Chinese",
+      "content": "1.Introduction to pinyin<br/>2.Read and write Chinese characters<br/>3.Survival Chinese<br/>4.Social Chinese"
+    },
+    "item3": {
+      "title": "Intermediate Chinese",
+      "content": "1.Conversational Chinese<br/>2.Interview skills<br/>3.Chinese Characters expansion "
+    },
+    "item4": {
+      "title": "Advanced Chinese",
+      "content": "1.Chinese Idioms&proverbs<br/>2.Noval Reading"
+    },
+    "item5": {
+      "title": "Minority Language Course",
+      "content": "1.Training in Japanese, Korean, French, Spanish and other minor languages<br/>2.Daily oral communication<br/>3.Business Chinese<br/>4.Short-term quick, for groups or individuals to travel abroad, study abroad, travel and other Chinese groups"
+    },
+    "item6": {
+      "title": "Adult English Training",
+      "content": "Help the friends in business to successfully complete the transaction with foreign friends. Make adults can speak English confidently and do business easily."
+    }
+  },
+  "service": {
+    "title": "Services",
+    "lead": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We provide services such as assisting foreigners to travel or live in China, processing visas, registering companies, renting offices, Airport reception, online shopping , professional translation and so on. ",
+    "item1": "Travel In China",
+    "item2": "Airport Reception",
+    "item3": "Residential Services",
+    "item4": "Visa Application",
+    "item5": "Company Register",
+    "item6": "Office Rented"
+  },
+  "contact": {
+    "title": "Contact",
+    "address": "Room 25B-2521, No. 189 Tiyuxi Road, Tianhe District, Guangzhou"
+  }
+}
