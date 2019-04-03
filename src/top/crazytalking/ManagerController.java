@@ -3,6 +3,7 @@ package top.crazytalking;
 import com.google.gson.JsonObject;
 import org.springframework.web.bind.annotation.RequestParam;
 import top.crazytalking.Bean.Request;
+import top.crazytalking.Config.C;
 import top.crazytalking.Config.V;
 import com.google.gson.Gson;
 import org.springframework.stereotype.Controller;
@@ -10,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 import top.crazytalking.Bean.Language;
 import top.crazytalking.Utils.ApiUtils;
+import top.crazytalking.Utils.CookieUtils;
 import top.crazytalking.Utils.FileUtils;
 import top.crazytalking.Utils.TextUtils;
 
@@ -29,49 +31,47 @@ public class ManagerController {
 
     @RequestMapping("/*")
     public ModelAndView index(HttpServletRequest request, HttpServletResponse response) throws Exception {
-        Language language = getLanguage(request);
-
-        ModelAndView modelAndView = new ModelAndView();
-        modelAndView.addObject(V.data, language);
         String uri = request.getRequestURI();
-
         if ("/".equals(uri)) {
             uri += "index.html";
         }
+
+        ModelAndView modelAndView = new ModelAndView();
+        modelAndView.addObject(V.languageName, getLanguageName(request));
+        modelAndView.addObject(V.languageList, C.languageList);
+        modelAndView.addObject(V.data, getLanguageBean(request));
         modelAndView.setViewName(uri.substring(1, uri.lastIndexOf(".html")));
         return modelAndView;
     }
 
     @RequestMapping("/en/*")
     public ModelAndView en(HttpServletRequest request, HttpServletResponse response) throws Exception {
-        return toLanguage(request, response, "1", "en");
+        return toLanguage(request, response, "en");
     }
 
-    @RequestMapping("/cn/*")
-    public ModelAndView cn(HttpServletRequest request, HttpServletResponse response) throws Exception {
-        return toLanguage(request, response, "2", "cn");
+    @RequestMapping("/zh-chs/*")
+    public ModelAndView zh_chs(HttpServletRequest request, HttpServletResponse response) throws Exception {
+        return toLanguage(request, response, "zh-chs");
     }
 
     private ModelAndView toLanguage(HttpServletRequest request,
-                                   HttpServletResponse response,
-                                   String languageCode,
-                                   String languageValue) throws Exception {
-        String str = getFileString("L" + languageCode + ".json");
-        Language data = new Gson().fromJson(str, Language.class);
-
-        ModelAndView modelAndView = new ModelAndView();
-        modelAndView.addObject(V.data, data);
-        String uri = request.getRequestURI();
-
-        Cookie cookie = new Cookie("language", languageCode);
+                                    HttpServletResponse response,
+                                    String languageCode
+    ) throws Exception {
+        Cookie cookie = new Cookie(V.language, languageCode);
         cookie.setPath("/");
         response.addCookie(cookie);
 
-        if (("/" + languageValue + "/").equals(uri)) {
+        String uri = request.getRequestURI();
+        if (("/" + languageCode + "/").equals(uri)) {
             uri += "index.html";
         }
 
-        modelAndView.setViewName(uri.substring(4, uri.lastIndexOf(".html")));
+        ModelAndView modelAndView = new ModelAndView();
+        modelAndView.addObject(V.languageName, getLanguageName(languageCode));
+        modelAndView.addObject(V.languageList, C.languageList);
+        modelAndView.addObject(V.data, getLanguageBean(languageCode));
+        modelAndView.setViewName(uri.substring(2 + languageCode.length(), uri.lastIndexOf(".html")));
         return modelAndView;
     }
 
@@ -136,37 +136,40 @@ public class ManagerController {
             mex.printStackTrace();
         }
 
-        Language language = getLanguage(request);
+        Language language = getLanguageBean(request);
 
         ModelAndView mv = new ModelAndView();
-        mv.addObject(V.msg, "谢谢你的光顾，我们将会联系你。");
+        mv.addObject(V.msg, language.getContact().getForm().getResponse().getTitle());
+        mv.addObject(V.link, language.getContact().getForm().getResponse().getLink());
         mv.setViewName("Component/message");
         return mv;
     }
 
-    private Language getLanguage(HttpServletRequest request) throws Exception {
-        Cookie[] cookies = request.getCookies();
-        String language = null;
-        if (cookies != null) {
-            for (Cookie cookie : cookies) {
-                if ("language".equals(cookie.getName())) {
-                    language = cookie.getValue();
-                    break;
-                }
-            }
+    private Language getLanguageBean(HttpServletRequest request) throws Exception {
+        String languageCode = CookieUtils.get(request, V.language);
+        if (TextUtils.isEmpty(languageCode)) {
+            languageCode = "en";
         }
 
-        String str;
-        if ("2".equals(language)) {
-            str = getFileString("L2.json");
-        } else {
-            str = getFileString("L1.json");
-        }
-        Language data = new Gson().fromJson(str, Language.class);
+        return getLanguageBean(languageCode);
+    }
+
+    private Language getLanguageBean(String languageCode) throws Exception {
+        Language data = new Gson().fromJson(getLanguageText(languageCode), Language.class);
         return data;
     }
 
-    private String getFileString(String fileName) throws Exception {
-        return FileUtils.fileRead(FileUtils.getFilePathInWebInf("/language/" + fileName));
+
+    private String getLanguageName(HttpServletRequest request) throws Exception {
+        String languageCode = CookieUtils.get(request, V.language);
+        return C.languageList.get(languageCode);
+    }
+
+    private String getLanguageName(String languageCode) {
+        return C.languageList.get(languageCode);
+    }
+
+    private String getLanguageText(String languageCode) throws Exception {
+        return FileUtils.fileRead(FileUtils.getFilePathInWebInf("/language/" + "L_" + languageCode + ".json"));
     }
 }

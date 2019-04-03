@@ -1,3 +1,4 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <!-- saved from url=(0042)https://v3.bootcss.com/examples/jumbotron/ -->
 <html lang="zh-CN">

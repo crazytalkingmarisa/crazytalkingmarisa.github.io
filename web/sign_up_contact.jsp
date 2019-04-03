@@ -1,3 +1,4 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <!-- saved from url=(0042)https://v3.bootcss.com/examples/jumbotron/ -->
 <html lang="zh-CN">
@@ -30,15 +31,15 @@
             <img src="${imageHost}/image/contact/gal.jpg" style="width: 100%;"/>
         </div>
         <form method="post" action="${host}/send_message.html" class="col-md-6">
-            <input type="text" class="form-control" id="name" name="name" placeholder="Your name"><br/>
+            <input type="text" class="form-control" id="name" name="name" placeholder="${data.contact.form.name}"><br/>
 
-            <input type="email" class="form-control" id="email" name="email" placeholder="Your email address"><br/>
+            <input type="email" class="form-control" id="email" name="email" placeholder="${data.contact.form.email}"><br/>
 
-            <input type="tel" class="form-control" id="tel" name="tel" placeholder="Your tel."><br/>
+            <input type="tel" class="form-control" id="tel" name="tel" placeholder="${data.contact.form.tel}"><br/>
 
-            <textarea class="form-control" name="need" rows="3" placeholder="Tell us about your need"></textarea><br/>
+            <textarea class="form-control" name="need" rows="3" placeholder="${data.contact.form.need}"></textarea><br/>
 
-            <button type="submit" class="btn btn-primary col-md-12">Send Message</button>
+            <button type="submit" class="btn btn-primary col-md-12">${data.contact.form.btn}</button>
         </form>
     </div>
 </div>

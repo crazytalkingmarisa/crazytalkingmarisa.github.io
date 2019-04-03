@@ -4,6 +4,7 @@ package top.crazytalking.Config;
 import top.crazytalking.Utils.DateUtils;
 
 import java.util.Date;
+import java.util.LinkedHashMap;
 
 /**
  * code > 1000 为自定义范围代码
@@ -14,16 +15,16 @@ public class C {
     public final static String getImageHost() {
         if (isDebug) {
             return "http://localhost:8080";
-        }else{
+        } else {
             return "https://www.crazytalking.top";
         }
         //return "http://image.fruits.knxy.top/";
     }
 
-    public final static String getHost(){
+    public final static String getHost() {
         if (isDebug) {
             return "http://localhost:8080";
-        }else{
+        } else {
             return "https://www.crazytalking.top";
         }
     }
@@ -34,6 +35,13 @@ public class C {
         } else {
             return "20190402";
         }
+    }
+
+    public static final LinkedHashMap<String, String> languageList = new LinkedHashMap<>();
+
+    static {
+        languageList.put("zh-chs", "简体中文");
+        languageList.put("en", "english");
     }
 
 

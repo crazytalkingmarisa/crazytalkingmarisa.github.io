@@ -23,4 +23,10 @@
         <url-pattern>*.html</url-pattern>
     </servlet-mapping>
 
+
+
+    <error-page>
+        <error-code>500</error-code>
+        <location>/Component/500.jsp</location>
+    </error-page>
 </web-app>

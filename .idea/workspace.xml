@@ -6,43 +6,20 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61b7f9d9-d458-4788-9d36-329733534c60" name="Default Changelist" comment="to java web">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/activation.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/dom4j_2_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mail.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/top/crazytalking/Bean/Request.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/top/crazytalking/Bean/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/top/crazytalking/Config/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/top/crazytalking/Config/S.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/top/crazytalking/Service/BaseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/top/crazytalking/Utils/ApiUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/top/crazytalking/Utils/ServiceUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/top/crazytalking/Utils/ServletUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/top/crazytalking/Utils/WebUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/top/crazytalking/Utils/XmlUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/dom4j-2.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/image/contact/gal.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="61b7f9d9-d458-4788-9d36-329733534c60" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/top/crazytalking/Utils/CookieUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Component/500.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/language/L1.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/language/L1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/language/L2.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/language/L2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/top/crazytalking/Bean/Language.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/top/crazytalking/Bean/Language.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/top/crazytalking/Config/C.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/top/crazytalking/Config/C.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/top/crazytalking/Config/V.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/top/crazytalking/Config/V.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/top/crazytalking/Filter/GlobeFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/top/crazytalking/Filter/GlobeFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/top/crazytalking/Language.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/top/crazytalking/Bean/Language.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/top/crazytalking/ManagerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/top/crazytalking/ManagerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/top/crazytalking/Utils/FileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/top/crazytalking/Utils/FileUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/top.crazytalking.iml" beforeDir="false" afterPath="$PROJECT_DIR$/top.crazytalking.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Component/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Component/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Component/message.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Component/message.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/Component/navigator.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Component/navigator.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/language/L1.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/language/L_en.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/language/L2.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/language/L_zh-chs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/course.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/course.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/image/other_services1/airport_reception.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/image/other_services1/company_register.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/image/other_services1/office_rented.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/image/other_services1/residential_services.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/image/other_services1/title_bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/image/other_services1/travel_in_china.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/image/other_services1/visa_application.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/other_services.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/other_services.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/sign_up_contact.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/sign_up_contact.jsp" afterDir="false" />
@@ -56,11 +33,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/top/crazytalking/ManagerController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+            <state relative-caret-position="261">
+              <caret line="136" column="9" lean-forward="true" selection-start-line="136" selection-start-column="9" selection-end-line="136" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#6324#6325#0" expanded="true" />
+                <element signature="e#6379#6380#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/sign_up_contact.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="41" column="87" selection-start-line="41" selection-start-column="87" selection-end-line="41" selection-end-column="87" />
             </state>
           </provider>
         </entry>
@@ -71,8 +62,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jsp File" />
-        <option value="Class" />
         <option value="jsf" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -115,7 +106,6 @@
         <option value="$PROJECT_DIR$/src/Config/V.java" />
         <option value="$PROJECT_DIR$/web/cn/index.html" />
         <option value="$PROJECT_DIR$/src/language/L1.json" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/language/L2.json" />
         <option value="$PROJECT_DIR$/src/top/crazytalking/Language.java" />
         <option value="$PROJECT_DIR$/web/css/index.css" />
@@ -130,21 +120,26 @@
         <option value="$PROJECT_DIR$/src/top/crazytalking/Utils/ServiceUtils.java" />
         <option value="$PROJECT_DIR$/src/top/crazytalking/Utils/XmlUtils.java" />
         <option value="$PROJECT_DIR$/src/top/crazytalking/Servlet/Api.java" />
-        <option value="$PROJECT_DIR$/web/course.jsp" />
-        <option value="$PROJECT_DIR$/src/top/crazytalking/Config/C.java" />
-        <option value="$PROJECT_DIR$/web/other_services.jsp" />
         <option value="$PROJECT_DIR$/web/Component/header.jsp" />
         <option value="$PROJECT_DIR$/web/js/common.js" />
         <option value="$PROJECT_DIR$/web/Component/message.xhtml" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/src/top/crazytalking/Config/V.java" />
-        <option value="$PROJECT_DIR$/web/sign_up_contact.jsp" />
-        <option value="$PROJECT_DIR$/web/Component/message.jsp" />
         <option value="$PROJECT_DIR$/src/top/crazytalking/Filter/GlobeFilter.java" />
-        <option value="$PROJECT_DIR$/src/top/crazytalking/Bean/Language.java" />
         <option value="$PROJECT_DIR$/src/top/crazytalking/Utils/FileUtils.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/web/Component/500.jsp" />
+        <option value="$PROJECT_DIR$/src/top/crazytalking/Utils/CookieUtils.java" />
+        <option value="$PROJECT_DIR$/src/top/crazytalking/Config/C.java" />
+        <option value="$PROJECT_DIR$/web/course.jsp" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/web/Component/navigator.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/language/L_en.json" />
+        <option value="$PROJECT_DIR$/web/other_services.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/language/L_zh-chs.json" />
+        <option value="$PROJECT_DIR$/src/top/crazytalking/Bean/Language.java" />
+        <option value="$PROJECT_DIR$/web/Component/message.jsp" />
+        <option value="$PROJECT_DIR$/src/top/crazytalking/Config/V.java" />
         <option value="$PROJECT_DIR$/src/top/crazytalking/ManagerController.java" />
+        <option value="$PROJECT_DIR$/web/sign_up_contact.jsp" />
       </list>
     </option>
   </component>
@@ -201,6 +196,20 @@
             <path>
               <item name="top.crazytalking" type="b2602c69:ProjectViewProjectNode" />
               <item name="top.crazytalking" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="crazytalking" type="462c0819:PsiDirectoryNode" />
+              <item name="Config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="top.crazytalking" type="b2602c69:ProjectViewProjectNode" />
+              <item name="top.crazytalking" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="crazytalking" type="462c0819:PsiDirectoryNode" />
+              <item name="Utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="top.crazytalking" type="b2602c69:ProjectViewProjectNode" />
+              <item name="top.crazytalking" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -215,6 +224,13 @@
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="top.crazytalking" type="b2602c69:ProjectViewProjectNode" />
+              <item name="top.crazytalking" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="language" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -226,7 +242,7 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554262310079" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554275222690" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -247,11 +263,11 @@
       <recent name="top.crazytalking" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/Component" />
       <recent name="$PROJECT_DIR$/web/WEB-INF/lib" />
       <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$/src/top/crazytalking/Bean" />
       <recent name="$PROJECT_DIR$/src/top/crazytalking/Utils" />
-      <recent name="$PROJECT_DIR$/src/top/crazytalking" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -351,7 +367,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554090550442</updated>
-      <workItem from="1554090556886" duration="52220000" />
+      <workItem from="1554090556886" duration="59317000" />
     </task>
     <task id="LOCAL-00001" summary="to java web">
       <created>1554130579026</created>
@@ -367,11 +383,32 @@
       <option name="project" value="LOCAL" />
       <updated>1554130593820</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="to java web">
+      <created>1554262304394</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1554262304394</updated>
+    </task>
+    <task id="LOCAL-00004" summary="to java web">
+      <created>1554262318186</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1554262318186</updated>
+    </task>
+    <task id="LOCAL-00005" summary="to java web">
+      <created>1554262326267</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1554262326267</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52220000" />
+    <option name="totallyTimeSpent" value="59317000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="-77" width="1600" height="877" extended-state="6" />
@@ -420,81 +457,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="to java web" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/lib/javax.servlet.jar!/javax/servlet/http/HttpServletRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/top/crazytalking/Servlet/Api.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="58" column="9" lean-forward="true" selection-start-line="33" selection-start-column="7" selection-end-line="58" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/Component/footer.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="65" selection-start-line="6" selection-start-column="4" selection-end-line="7" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/top/crazytalking/Utils/XmlUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/top/crazytalking/Config/S.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/top/crazytalking/Service/BaseService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/image/contact/gal.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/top/crazytalking/Config/C.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/Component/header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="20" column="53" lean-forward="true" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/javax.servlet.jar!/javax/servlet/http/Cookie.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-webmvc-4.1.6.RELEASE.jar!/org/springframework/web/servlet/View.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -517,30 +479,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="333">
           <caret line="75" column="9" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/other_services.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="46" lean-forward="true" selection-start-line="5" selection-start-column="46" selection-end-line="6" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/course.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="119" column="7" selection-start-line="112" selection-end-line="119" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/top/crazytalking/Config/V.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -605,20 +543,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/libraries/gson_2_8_5.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/sign_up_contact.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="36" column="64" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/Component/message.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/top/crazytalking/Utils/ApiUtils.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -688,31 +612,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/language/L2.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/language/L1.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="223" selection-start-line="24" selection-start-column="223" selection-end-line="24" selection-end-column="223" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/top/crazytalking/Utils/DateUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/top/crazytalking/Bean/Language.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -730,24 +633,163 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/javax.servlet.jar!/javax/servlet/http/Cookie.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/top/crazytalking/Utils/CookieUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/top/crazytalking/Config/S.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/top/crazytalking/Utils/FileUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Component/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Component/500.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/course.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Component/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="7" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/top/crazytalking/Config/C.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="39" column="54" selection-start-line="39" selection-start-column="54" selection-end-line="39" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/Component/navigator.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="53" column="62" selection-start-line="53" selection-start-column="62" selection-end-line="53" selection-end-column="62" />
+        <state relative-caret-position="810">
+          <caret line="54" column="99" selection-start-line="54" selection-start-column="99" selection-end-line="54" selection-end-column="99" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/language/L_zh-chs.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="75" column="18" selection-end-line="82" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/language/L_en.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="74" column="40" lean-forward="true" selection-start-line="74" selection-start-column="40" selection-end-line="75" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/top/crazytalking/Bean/Language.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/top/crazytalking/Bean/Request.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/other_services.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Component/message.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/top/crazytalking/Config/V.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/top/crazytalking/ManagerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        <state relative-caret-position="261">
+          <caret line="136" column="9" lean-forward="true" selection-start-line="136" selection-start-column="9" selection-end-line="136" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6324#6325#0" expanded="true" />
+            <element signature="e#6379#6380#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/sign_up_contact.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="41" column="87" selection-start-line="41" selection-start-column="87" selection-end-line="41" selection-end-column="87" />
         </state>
       </provider>
     </entry>

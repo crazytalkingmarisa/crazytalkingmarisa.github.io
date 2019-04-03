@@ -5,8 +5,9 @@
   Time: 15:57
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
@@ -46,28 +47,16 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                        aria-expanded="false">
-                        <span id="language">English</span>
+                        <span id="language">${languageName}</span>
                         <span class="caret"></span>
                     </a>
                     <ul id="language_list" class="dropdown-menu">
-                        <li><a href="${host}/en/<%=href%>.html">English</a></li>
-                        <li><a href="${host}/cn/<%=href%>.html">简体中文</a></li>
+                        <c:forEach items="${languageList}" var="item">
+                            <li><a href="${host}/${item.key}/<%=href%>.html">${item.value}</a></li>
+                        </c:forEach>
                     </ul>
                 </li>
             </ul>
         </div>
-        <!--/.nav-collapse -->
-
     </div>
 </nav>
-
-<script type="text/javascript">
-    $(function () {
-        var language = Cookie.get("language");
-        if (language == "2") {
-            $("#language").html("简体中文");
-        } else {
-            $("#language").html("english");
-        }
-    });
-</script>

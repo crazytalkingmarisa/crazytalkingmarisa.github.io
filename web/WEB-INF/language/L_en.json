@@ -67,6 +67,17 @@
   },
   "contact": {
     "title": "Contact",
-    "address": "Room 25B-2521, No. 189 Tiyuxi Road, Tianhe District, Guangzhou"
+    "address": "Room 25B-2521, No. 189 Tiyuxi Road, Tianhe District, Guangzhou",
+    "form": {
+      "name": "Your name",
+      "email": "Your email address",
+      "tel": "Your tel.",
+      "need": "Tell us about your need",
+      "btn": "Send Message",
+      "response": {
+        "title": "Thanks, we will contact you soon.",
+        "link": "Back to Home"
+      }
+    }
   }
 }

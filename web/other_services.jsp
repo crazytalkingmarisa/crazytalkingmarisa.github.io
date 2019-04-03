@@ -1,3 +1,4 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <!-- saved from url=(0042)https://v3.bootcss.com/examples/jumbotron/ -->
 <html lang="zh-CN">
@@ -33,7 +34,6 @@
         <div class="col-md-4 item">
             <img alt="Airport Reception" src="${imageHost}/image/other_services/travel_in_china.jpg">
             <h2>
-
                 ${data.service.item1}
             </h2>
         </div>
