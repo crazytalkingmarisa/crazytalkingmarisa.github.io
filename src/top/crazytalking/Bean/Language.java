@@ -1,5 +1,9 @@
-package top.crazytalking;
+package top.crazytalking.Bean;
 
+/**
+ * 1 = english
+ * 2 = 中文
+ */
 
 public class Language {
 

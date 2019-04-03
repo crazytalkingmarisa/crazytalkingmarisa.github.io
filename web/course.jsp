@@ -4,7 +4,7 @@
 
 <head>
 	<%@ include file="Component/header.jsp" %>
-	<link href="css/course.css?v=3" rel="stylesheet">
+	<link href="${host}/css/course.css?v=${version}" rel="stylesheet">
 </head>
 <body>
 
@@ -14,7 +14,7 @@
 	<div class="title">
 		<div class="container title_content">
 			<h1>${data.course.title}</h1>
-			<img alt="liner" src="image/liner.png" class="title_image">
+			<img alt="liner" src="${imageHost}/image/liner.png" class="title_image">
 		</div>
 	</div>
 
@@ -24,7 +24,7 @@
 		<div class="row">
 			<div class="col-md-4">
 				<div class="thumbnail">
-					<img alt="hsk 考试" src="image/course/item1.jpg">
+					<img alt="hsk 考试" src="${imageHost}/image/course/item1.jpg">
 					<div class="caption">
 						<h3>
 							${data.course.item1.title}
@@ -38,7 +38,7 @@
 
 			<div class="col-md-4">
 				<div class="thumbnail">
-					<img alt="Beginner Chinese" src="image/course/item2.jpg">
+					<img alt="Beginner Chinese" src="${imageHost}/image/course/item2.jpg">
 					<div class="caption">
 						<h3>
 							${data.course.item2.title}
@@ -52,7 +52,7 @@
 
 			<div class="col-md-4">
 				<div class="thumbnail">
-					<img alt="Intermediate Chinese" src="image/course/item3.png">
+					<img alt="Intermediate Chinese" src="${imageHost}/image/course/item3.png">
 					<div class="caption">
 						<h3>
 							${data.course.item3.title}
@@ -68,7 +68,7 @@
 		<div class="row">
 			<div class="col-md-4">
 				<div class="thumbnail">
-					<img alt="Advanced Chinese" src="image/course/item4.png">
+					<img alt="Advanced Chinese" src="${imageHost}/image/course/item4.png">
 					<div class="caption">
 						<h3>
 							${data.course.item4.title}
@@ -82,7 +82,7 @@
 
 			<div class="col-md-4">
 				<div class="thumbnail">
-					<img alt="日语，韩语，法语，西语等小语种培训" src="image/course/item5.jpg">
+					<img alt="日语，韩语，法语，西语等小语种培训" src="${imageHost}/image/course/item5.jpg">
 					<div class="caption">
 						<h3>
 							${data.course.item5.title}
@@ -96,7 +96,7 @@
 
 			<div class="col-md-4">
 				<div class="thumbnail">
-					<img alt="成人英语培训" src="image/course/item6.jpg">
+					<img alt="成人英语培训" src="${imageHost}/image/course/item6.jpg">
 					<div class="caption">
 						<h3>
 							${data.course.item6.title}

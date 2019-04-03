@@ -1,12 +1,10 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-
 <!DOCTYPE html>
 <!-- saved from url=(0042)https://v3.bootcss.com/examples/jumbotron/ -->
 <html lang="zh-CN">
 
 <head>
     <%@ include file="Component/header.jsp" %>
-    <link href="css/index.css?v=3" rel="stylesheet">
+    <link href="${host}/css/index.css?v=${version}" rel="stylesheet">
 </head>
 <body>
 
@@ -23,7 +21,7 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
         <div class="item active">
-            <img alt="slide1" src="image/index/slide/1.jpg">
+            <img alt="slide1" src="${imageHost}/image/index/slide/1.jpg">
             <div id="slide_page1_in" class="carousel-caption content">
                 <h1>${data.slide.page1.p1}</h1>
                 <p class="lead">${data.slide.page1.p2}</p>
@@ -32,10 +30,9 @@
                        class="btn btn-lg btn-success">${data.slide.page1.button1}</a>
                 </div>
             </div>
-
         </div>
         <div class="item">
-            <img alt="slide2" src="image/index/slide/2.jpg">
+            <img alt="slide2" src="${imageHost}/image/index/slide/2.jpg">
             <div id="slide_page2_in" class="carousel-caption content">
                 <h1>${data.slide.page2.p1}</h1>
                 <p class="lead">${data.slide.page2.p2}</p>
@@ -80,20 +77,20 @@
 <div class="title">
     <div class="container title_content">
         <h1>${data.aboutUs.title}</h1>
-        <img alt="liner" src="image/liner.png" class="title_image">
+        <img alt="liner" src="${imageHost}/image/liner.png" class="title_image">
     </div>
 </div>
 
 <div class="container">
     <div class="row">
         <div class="col-md-4">
-            <img alt="introduction pic 1" style="width: 100%" src="image/index/introduction/1.jpg"/>
+            <img alt="introduction pic 1" style="width: 100%" src="${imageHost}/image/index/introduction/1.jpg"/>
             <div class="box" style="margin-top: 5px; margin-bottom: 15px; justify-content: space-between;">
                 <div style="width: 49%">
-                    <img alt="introduction pic 2" style="width: 100%" src="image/index/introduction/2.jpg"/>
+                    <img alt="introduction pic 2" style="width: 100%" src="${imageHost}/image/index/introduction/2.jpg"/>
                 </div>
                 <div style="width: 49%">
-                    <img alt="introduction pic 3" style="width: 100%" src="image/index/introduction/3.jpg"/>
+                    <img alt="introduction pic 3" style="width: 100%" src="${imageHost}/image/index/introduction/3.jpg"/>
                 </div>
             </div>
         </div>
@@ -112,37 +109,37 @@
 <div class="title">
     <div class="container title_content">
         <h1>${data.comment.title}</h1>
-        <img alt="liner" src="image/liner.png" class="title_image">
+        <img alt="liner" src="${imageHost}/image/liner.png" class="title_image">
     </div>
 </div>
 
 <div class="container bg_grey comment">
     <div class="item">
-        <img class="avatar" src="image/index/comment/avatar/8.jpg"/>
-        <img class="arrow" src="image/index/comment/arrow.png"/>
+        <img class="avatar" src="${imageHost}/image/index/comment/avatar/8.jpg"/>
+        <img class="arrow" src="${imageHost}/image/index/comment/arrow.png"/>
         <div class="content">
             <p class=" lead">Hello marisa :) our lesson was great.. We make units from books.. course was very
                 useful for
-                me <img class="emoji" src="image/index/comment/emoji/1.png"/></p>
+                me <img class="emoji" src="${imageHost}/image/index/comment/emoji/1.png"/></p>
         </div>
     </div>
 
     <div class="item">
-        <img class="avatar" src="image/index/comment/avatar/2.jpg"/>
-        <img class="arrow" src="image/index/comment/arrow.png"/>
+        <img class="avatar" src="${imageHost}/image/index/comment/avatar/2.jpg"/>
+        <img class="arrow" src="${imageHost}/image/index/comment/arrow.png"/>
         <div class="content">
             <p class="lead">Hello Marisa. I heard a lot about you. <img class="emoji"
-                                                                        src="image/index/comment/emoji/2.png"/> A
+                                                                        src="${imageHost}/image/index/comment/emoji/2.png"/> A
                 lot of good things.Apparently you are a great
-                Chinese teacher.<img class="emoji" src="image/index/comment/emoji/2.png"/> I might be interested
+                Chinese teacher.<img class="emoji" src="${imageHost}/image/index/comment/emoji/2.png"/> I might be interested
                 with your
                 services</p>
         </div>
 
     </div>
     <div class="item">
-        <img class="avatar" src="image/index/comment/avatar/3.jpg"/>
-        <img class="arrow" src="image/index/comment/arrow.png"/>
+        <img class="avatar" src="${imageHost}/image/index/comment/avatar/3.jpg"/>
+        <img class="arrow" src="${imageHost}/image/index/comment/arrow.png"/>
         <div class="content">
             <p class="lead">the teacher repeats the things a lot, make me talk and say sentences etc etc,i like</p>
         </div>

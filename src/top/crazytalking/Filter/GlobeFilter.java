@@ -1,6 +1,8 @@
 package top.crazytalking.Filter;
 
 
+import top.crazytalking.Config.C;
+
 import javax.servlet.*;
 import javax.servlet.annotation.WebFilter;
 import javax.servlet.http.HttpServletRequest;
@@ -23,8 +25,11 @@ public class GlobeFilter implements Filter {
         request.setCharacterEncoding("UTF-8");
         response.setCharacterEncoding("UTF-8");
 
-        chain.doFilter(request, response);
+        request.setAttribute("version", C.getVersion());
+        request.setAttribute("host", C.getHost());
+        request.setAttribute("imageHost", C.getImageHost());
 
+        chain.doFilter(request, response);
     }
 
     @Override

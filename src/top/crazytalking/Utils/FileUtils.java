@@ -28,6 +28,13 @@ public class FileUtils {
     }
 
     public static String getFilePathInSrc(String filePath) {
-        return FileUtils.class.getResource("/"+filePath).getFile();
+        String path = FileUtils.class.getResource("/" + filePath).getFile();
+        return path;
+    }
+
+    public static String getFilePathInWebInf(String filePath) {
+        String path = FileUtils.class.getResource("/").getFile();
+        path = new File(path).getParent()+filePath;
+        return path;
     }
 }
