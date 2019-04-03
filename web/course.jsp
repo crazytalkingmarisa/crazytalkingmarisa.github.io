@@ -22,7 +22,7 @@
 
 	<div class="container">
 		<!-- Example row of columns -->
-		<div class="row">
+		<div class="row row1">
 			<div class="col-md-4">
 				<div class="thumbnail">
 					<img alt="hsk 考试" src="${imageHost}/image/course/item1.jpg">
@@ -66,7 +66,7 @@
 			</div>
 		</div>
 
-		<div class="row">
+		<div class="row row2">
 			<div class="col-md-4">
 				<div class="thumbnail">
 					<img alt="Advanced Chinese" src="${imageHost}/image/course/item4.png">

@@ -8,15 +8,17 @@ package top.crazytalking.Bean;
 public class Language {
 
     /**
-     * navigator : {"title":"玛丽莎 | 中文老师","item":{"home":"首页","course":"课程","other_services":"其他服务","sign_up_contact":"报名 | 联系我们"}}
-     * slide : {"page1":{"p1":"属于你的中文老师在微信或者<br/>Skype上为你进行一对一教学","p2":"获取你自己的在线中文导师。 <br/>适合个人、企业，<br/>还有孩子们","button1":"联系我们"},"page2":{"p1":"在广州任何时间都可以上中文课","p2":"我们为广州的学生提供家庭教育","button1":"联系我们"}}
-     * aboutUs : {"title":"简介","p1":"玛丽莎中文学校成立于2016年，是一家国际化的中文学校，秉持教学质量第一，致力为全球各地的外国友人提供最专业，最满意的中文教学服务，本着\u201c用心服务，传递中华文化\u201d为宗旨，主要教育服务有外国人普通话一对一及小班语言培训以及法语，西班牙语，德语，俄语等小语种培训。","p2":"我们拥有专业强大的师资，有来自世界各地的母语为英语，德语，法语，西班牙语等外籍教师，以及来自中国重点大学汉语国际教育专业，西班牙语专业，法语专业，日语专业等毕业的教师，还有一批具有出国教学经验的优秀中文教师。目前学生有来自广州各领事馆，外资企业商务人士，模特，艺术家，外教等等。"}
-     * comment : {"title":"学生的评价"}
-     * course : {"title":"课程","item1":{"title":"HSK考试辅导","content":"1.HSK应试技巧<br/>2.语法结构<br/>3.听、说、读、写练习分类<br/>4.模拟测试"},"item2":{"title":"初级汉语","content":"1.拼音介绍<br/>2.读写汉字<br/>3.生存汉语<br/>4.社会汉语"},"item3":{"title":"中级汉语","content":"1.普通话对话<\/br> 2.口语技巧<\/br> 3.更多汉字学习 <\/br>"},"item4":{"title":"高级汉语","content":"1.汉语成语及谚语<\/br> 2.阅读<\/br>"},"item5":{"title":"小语种学习课程","content":"1.日常口语交流<\/br> 2.商务口语学习<\/br> 3.短期速成，针对团体或个人出国旅行，留学，出差等中国人群体"},"item6":{"title":"成人英语培训","content":"助力商场的朋友成功与外国朋友完成交易，让成人也能自信的讲英语，轻松的做生意。"}}
-     * service : {"title":"其他服务","lead":"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我们提供协助外国人来中国住宿，办理签证，注册公司，租赁办公室，安排机场接待，网络购物, 专业翻译等服务。","item1":"中国旅游","item2":"机场接待","item3":"住宿服务","item4":"办理签证","item5":"注册公司","item6":"租赁办公室"}
-     * contact : {"title":"联系方式","address":"广州天河体育西路189号城建大厦25楼A区欧西商务中心","form":{"name":"你的名字","email":"你的邮箱地址","tel":"你的电话号码","need":"告诉我们你想要什么","btn":"发送消息","response":{"title":"谢谢，很快我们将联系你","link":"返回首页"}}}
+     * header : {"title":"chinese teacher | Mandarin Tutor | GuangZhou Marisa","description":"Marisa chinese school is committed to providing the most professional and satisfying Chinese language teaching services to foreign friends around the world. We are in GuangZhou, providing chinese teacher and mandarin tutor to take 1 on 1 lessons or online lessons.(chinese learn,mandarin learn)","keywords":"marisa,chinese teacher,mandarin tutor,chinese learn,mandarin learn"}
+     * navigator : {"title":"Marisa | Chinese Teacher","item":{"home":"Home","course":"Course","other_services":"Other Services","sign_up_contact":"Sign up | Contact"}}
+     * slide : {"page1":{"p1":"Take 1 on 1 lessons with<br/>a private Chinese teacher<br/>on Wechat or Skype","p2":"Get your own personal online Chinese teacher. <br/>Great for individuals, businesses,<br/>and children.","button1":"CONTACT US"},"page2":{"p1":"Take Your Chinese Lessons Any<br/>Time Anywhere in GuangZhou","p2":"We provide family teach for student<br/>in GuangZhou","button1":"CONTACT US"}}
+     * aboutUs : {"title":"Who we are?","p1":"Founded in 2016, Marisa Chinese School is an international Chinese school. It is committed to providing the most professional and satisfying Chinese language teaching services to foreign friends around the world.","p2":"We have professional and powerful teachers, foreign teachers from all over the world who are native speakers of English, German, French, Spanish, etc., as well as Chinese majors from Chinese major universities, Spanish majors. , French majors, Japanese majors and other graduated teachers, as well as a group of outstanding Chinese teachers with experience in teaching abroad. At present, students come from Guangzhou consulates, foreign-funded business people, models, artists, foreign teachers, etc."}
+     * comment : {"title":"What our students say about us?"}
+     * course : {"title":"Course","item1":{"title":"HSK exam tutor","content":"1.HSK test-taking skills<br/>2.Grammartical structure<br/>3.Classification of listening,speaking,reading and writing practice<br/>4.Simulation test"},"item2":{"title":"Beginner Chinese","content":"1.Introduction to pinyin<br/>2.Read and write Chinese characters<br/>3.Survival Chinese<br/>4.Social Chinese"},"item3":{"title":"Intermediate Chinese","content":"1.Conversational Chinese<br/>2.Interview skills<br/>3.Chinese Characters expansion "},"item4":{"title":"Advanced Chinese","content":"1.Chinese Idioms&proverbs<br/>2.Noval Reading"},"item5":{"title":"Minority Language Course","content":"1.Training in Japanese, Korean, French, Spanish and other minor languages<br/>2.Daily oral communication<br/>3.Business Chinese<br/>4.Short-term quick, for groups or individuals to travel abroad, study abroad, travel and other Chinese groups"},"item6":{"title":"Adult English Training","content":"Help the friends in business to successfully complete the transaction with foreign friends. Make adults can speak English confidently and do business easily."}}
+     * service : {"title":"Services","lead":"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We provide services such as assisting foreigners to travel or live in China, processing visas, registering companies, renting offices, Airport reception, online shopping , professional translation and so on. ","item1":"Travel In China","item2":"Airport Reception","item3":"Residential Services","item4":"Visa Application","item5":"Company Register","item6":"Office Rented"}
+     * contact : {"title":"Contact","address":"Room 25B-2521, No. 189 Tiyuxi Road, Tianhe District, Guangzhou","form":{"name":"Your name","email":"Your email address","tel":"Your tel.","need":"Tell us about your need","btn":"Send Message","response":{"title":"Thanks, we will contact you soon.","link":"Back to Home"}}}
      */
 
+    private Header header;
     private Navigator navigator;
     private Slide slide;
     private AboutUs aboutUs;
@@ -24,6 +26,14 @@ public class Language {
     private Course course;
     private Service service;
     private Contact contact;
+
+    public Header getHeader() {
+        return header;
+    }
+
+    public void setHeader(Header header) {
+        this.header = header;
+    }
 
     public Navigator getNavigator() {
         return navigator;
@@ -81,10 +91,46 @@ public class Language {
         this.contact = contact;
     }
 
+    public static class Header {
+        /**
+         * title : chinese teacher | Mandarin Tutor | GuangZhou Marisa
+         * description : Marisa chinese school is committed to providing the most professional and satisfying Chinese language teaching services to foreign friends around the world. We are in GuangZhou, providing chinese teacher and mandarin tutor to take 1 on 1 lessons or online lessons.(chinese learn,mandarin learn)
+         * keywords : marisa,chinese teacher,mandarin tutor,chinese learn,mandarin learn
+         */
+
+        private String title;
+        private String description;
+        private String keywords;
+
+        public String getTitle() {
+            return title;
+        }
+
+        public void setTitle(String title) {
+            this.title = title;
+        }
+
+        public String getDescription() {
+            return description;
+        }
+
+        public void setDescription(String description) {
+            this.description = description;
+        }
+
+        public String getKeywords() {
+            return keywords;
+        }
+
+        public void setKeywords(String keywords) {
+            this.keywords = keywords;
+        }
+    }
+
     public static class Navigator {
         /**
-         * title : 玛丽莎 | 中文老师
-         * item : {"home":"首页","course":"课程","other_services":"其他服务","sign_up_contact":"报名 | 联系我们"}
+         * title : Marisa | Chinese Teacher
+         * item : {"home":"Home","course":"Course","other_services":"Other Services","sign_up_contact":"Sign up | Contact"}
          */
 
         private String title;
@@ -108,10 +154,10 @@ public class Language {
 
         public static class Item {
             /**
-             * home : 首页
-             * course : 课程
-             * other_services : 其他服务
-             * sign_up_contact : 报名 | 联系我们
+             * home : Home
+             * course : Course
+             * other_services : Other Services
+             * sign_up_contact : Sign up | Contact
              */
 
             private String home;
@@ -155,8 +201,8 @@ public class Language {
 
     public static class Slide {
         /**
-         * page1 : {"p1":"属于你的中文老师在微信或者<br/>Skype上为你进行一对一教学","p2":"获取你自己的在线中文导师。 <br/>适合个人、企业，<br/>还有孩子们","button1":"联系我们"}
-         * page2 : {"p1":"在广州任何时间都可以上中文课","p2":"我们为广州的学生提供家庭教育","button1":"联系我们"}
+         * page1 : {"p1":"Take 1 on 1 lessons with<br/>a private Chinese teacher<br/>on Wechat or Skype","p2":"Get your own personal online Chinese teacher. <br/>Great for individuals, businesses,<br/>and children.","button1":"CONTACT US"}
+         * page2 : {"p1":"Take Your Chinese Lessons Any<br/>Time Anywhere in GuangZhou","p2":"We provide family teach for student<br/>in GuangZhou","button1":"CONTACT US"}
          */
 
         private Page1 page1;
@@ -180,9 +226,9 @@ public class Language {
 
         public static class Page1 {
             /**
-             * p1 : 属于你的中文老师在微信或者<br/>Skype上为你进行一对一教学
-             * p2 : 获取你自己的在线中文导师。 <br/>适合个人、企业，<br/>还有孩子们
-             * button1 : 联系我们
+             * p1 : Take 1 on 1 lessons with<br/>a private Chinese teacher<br/>on Wechat or Skype
+             * p2 : Get your own personal online Chinese teacher. <br/>Great for individuals, businesses,<br/>and children.
+             * button1 : CONTACT US
              */
 
             private String p1;
@@ -216,9 +262,9 @@ public class Language {
 
         public static class Page2 {
             /**
-             * p1 : 在广州任何时间都可以上中文课
-             * p2 : 我们为广州的学生提供家庭教育
-             * button1 : 联系我们
+             * p1 : Take Your Chinese Lessons Any<br/>Time Anywhere in GuangZhou
+             * p2 : We provide family teach for student<br/>in GuangZhou
+             * button1 : CONTACT US
              */
 
             private String p1;
@@ -253,9 +299,9 @@ public class Language {
 
     public static class AboutUs {
         /**
-         * title : 简介
-         * p1 : 玛丽莎中文学校成立于2016年，是一家国际化的中文学校，秉持教学质量第一，致力为全球各地的外国友人提供最专业，最满意的中文教学服务，本着“用心服务，传递中华文化”为宗旨，主要教育服务有外国人普通话一对一及小班语言培训以及法语，西班牙语，德语，俄语等小语种培训。
-         * p2 : 我们拥有专业强大的师资，有来自世界各地的母语为英语，德语，法语，西班牙语等外籍教师，以及来自中国重点大学汉语国际教育专业，西班牙语专业，法语专业，日语专业等毕业的教师，还有一批具有出国教学经验的优秀中文教师。目前学生有来自广州各领事馆，外资企业商务人士，模特，艺术家，外教等等。
+         * title : Who we are?
+         * p1 : Founded in 2016, Marisa Chinese School is an international Chinese school. It is committed to providing the most professional and satisfying Chinese language teaching services to foreign friends around the world.
+         * p2 : We have professional and powerful teachers, foreign teachers from all over the world who are native speakers of English, German, French, Spanish, etc., as well as Chinese majors from Chinese major universities, Spanish majors. , French majors, Japanese majors and other graduated teachers, as well as a group of outstanding Chinese teachers with experience in teaching abroad. At present, students come from Guangzhou consulates, foreign-funded business people, models, artists, foreign teachers, etc.
          */
 
         private String title;
@@ -289,7 +335,7 @@ public class Language {
 
     public static class Comment {
         /**
-         * title : 学生的评价
+         * title : What our students say about us?
          */
 
         private String title;
@@ -305,13 +351,13 @@ public class Language {
 
     public static class Course {
         /**
-         * title : 课程
-         * item1 : {"title":"HSK考试辅导","content":"1.HSK应试技巧<br/>2.语法结构<br/>3.听、说、读、写练习分类<br/>4.模拟测试"}
-         * item2 : {"title":"初级汉语","content":"1.拼音介绍<br/>2.读写汉字<br/>3.生存汉语<br/>4.社会汉语"}
-         * item3 : {"title":"中级汉语","content":"1.普通话对话<\/br> 2.口语技巧<\/br> 3.更多汉字学习 <\/br>"}
-         * item4 : {"title":"高级汉语","content":"1.汉语成语及谚语<\/br> 2.阅读<\/br>"}
-         * item5 : {"title":"小语种学习课程","content":"1.日常口语交流<\/br> 2.商务口语学习<\/br> 3.短期速成，针对团体或个人出国旅行，留学，出差等中国人群体"}
-         * item6 : {"title":"成人英语培训","content":"助力商场的朋友成功与外国朋友完成交易，让成人也能自信的讲英语，轻松的做生意。"}
+         * title : Course
+         * item1 : {"title":"HSK exam tutor","content":"1.HSK test-taking skills<br/>2.Grammartical structure<br/>3.Classification of listening,speaking,reading and writing practice<br/>4.Simulation test"}
+         * item2 : {"title":"Beginner Chinese","content":"1.Introduction to pinyin<br/>2.Read and write Chinese characters<br/>3.Survival Chinese<br/>4.Social Chinese"}
+         * item3 : {"title":"Intermediate Chinese","content":"1.Conversational Chinese<br/>2.Interview skills<br/>3.Chinese Characters expansion "}
+         * item4 : {"title":"Advanced Chinese","content":"1.Chinese Idioms&proverbs<br/>2.Noval Reading"}
+         * item5 : {"title":"Minority Language Course","content":"1.Training in Japanese, Korean, French, Spanish and other minor languages<br/>2.Daily oral communication<br/>3.Business Chinese<br/>4.Short-term quick, for groups or individuals to travel abroad, study abroad, travel and other Chinese groups"}
+         * item6 : {"title":"Adult English Training","content":"Help the friends in business to successfully complete the transaction with foreign friends. Make adults can speak English confidently and do business easily."}
          */
 
         private String title;
@@ -380,8 +426,8 @@ public class Language {
 
         public static class Item1 {
             /**
-             * title : HSK考试辅导
-             * content : 1.HSK应试技巧<br/>2.语法结构<br/>3.听、说、读、写练习分类<br/>4.模拟测试
+             * title : HSK exam tutor
+             * content : 1.HSK test-taking skills<br/>2.Grammartical structure<br/>3.Classification of listening,speaking,reading and writing practice<br/>4.Simulation test
              */
 
             private String title;
@@ -406,8 +452,8 @@ public class Language {
 
         public static class Item2 {
             /**
-             * title : 初级汉语
-             * content : 1.拼音介绍<br/>2.读写汉字<br/>3.生存汉语<br/>4.社会汉语
+             * title : Beginner Chinese
+             * content : 1.Introduction to pinyin<br/>2.Read and write Chinese characters<br/>3.Survival Chinese<br/>4.Social Chinese
              */
 
             private String title;
@@ -432,8 +478,8 @@ public class Language {
 
         public static class Item3 {
             /**
-             * title : 中级汉语
-             * content : 1.普通话对话</br> 2.口语技巧</br> 3.更多汉字学习 </br>
+             * title : Intermediate Chinese
+             * content : 1.Conversational Chinese<br/>2.Interview skills<br/>3.Chinese Characters expansion
              */
 
             private String title;
@@ -458,8 +504,8 @@ public class Language {
 
         public static class Item4 {
             /**
-             * title : 高级汉语
-             * content : 1.汉语成语及谚语</br> 2.阅读</br>
+             * title : Advanced Chinese
+             * content : 1.Chinese Idioms&proverbs<br/>2.Noval Reading
              */
 
             private String title;
@@ -484,8 +530,8 @@ public class Language {
 
         public static class Item5 {
             /**
-             * title : 小语种学习课程
-             * content : 1.日常口语交流</br> 2.商务口语学习</br> 3.短期速成，针对团体或个人出国旅行，留学，出差等中国人群体
+             * title : Minority Language Course
+             * content : 1.Training in Japanese, Korean, French, Spanish and other minor languages<br/>2.Daily oral communication<br/>3.Business Chinese<br/>4.Short-term quick, for groups or individuals to travel abroad, study abroad, travel and other Chinese groups
              */
 
             private String title;
@@ -510,8 +556,8 @@ public class Language {
 
         public static class Item6 {
             /**
-             * title : 成人英语培训
-             * content : 助力商场的朋友成功与外国朋友完成交易，让成人也能自信的讲英语，轻松的做生意。
+             * title : Adult English Training
+             * content : Help the friends in business to successfully complete the transaction with foreign friends. Make adults can speak English confidently and do business easily.
              */
 
             private String title;
@@ -537,14 +583,14 @@ public class Language {
 
     public static class Service {
         /**
-         * title : 其他服务
-         * lead : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我们提供协助外国人来中国住宿，办理签证，注册公司，租赁办公室，安排机场接待，网络购物, 专业翻译等服务。
-         * item1 : 中国旅游
-         * item2 : 机场接待
-         * item3 : 住宿服务
-         * item4 : 办理签证
-         * item5 : 注册公司
-         * item6 : 租赁办公室
+         * title : Services
+         * lead : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We provide services such as assisting foreigners to travel or live in China, processing visas, registering companies, renting offices, Airport reception, online shopping , professional translation and so on.
+         * item1 : Travel In China
+         * item2 : Airport Reception
+         * item3 : Residential Services
+         * item4 : Visa Application
+         * item5 : Company Register
+         * item6 : Office Rented
          */
 
         private String title;
@@ -623,9 +669,9 @@ public class Language {
 
     public static class Contact {
         /**
-         * title : 联系方式
-         * address : 广州天河体育西路189号城建大厦25楼A区欧西商务中心
-         * form : {"name":"你的名字","email":"你的邮箱地址","tel":"你的电话号码","need":"告诉我们你想要什么","btn":"发送消息","response":{"title":"谢谢，很快我们将联系你","link":"返回首页"}}
+         * title : Contact
+         * address : Room 25B-2521, No. 189 Tiyuxi Road, Tianhe District, Guangzhou
+         * form : {"name":"Your name","email":"Your email address","tel":"Your tel.","need":"Tell us about your need","btn":"Send Message","response":{"title":"Thanks, we will contact you soon.","link":"Back to Home"}}
          */
 
         private String title;
@@ -658,12 +704,12 @@ public class Language {
 
         public static class Form {
             /**
-             * name : 你的名字
-             * email : 你的邮箱地址
-             * tel : 你的电话号码
-             * need : 告诉我们你想要什么
-             * btn : 发送消息
-             * response : {"title":"谢谢，很快我们将联系你","link":"返回首页"}
+             * name : Your name
+             * email : Your email address
+             * tel : Your tel.
+             * need : Tell us about your need
+             * btn : Send Message
+             * response : {"title":"Thanks, we will contact you soon.","link":"Back to Home"}
              */
 
             private String name;
@@ -723,8 +769,8 @@ public class Language {
 
             public static class Response {
                 /**
-                 * title : 谢谢，很快我们将联系你
-                 * link : 返回首页
+                 * title : Thanks, we will contact you soon.
+                 * link : Back to Home
                  */
 
                 private String title;
