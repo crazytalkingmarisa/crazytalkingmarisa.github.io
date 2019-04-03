@@ -1,7 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <!-- saved from url=(0042)https://v3.bootcss.com/examples/jumbotron/ -->
-<html lang="zh-CN">
+<html lang="${languageCode}">
 
 <head>
     <%@ include file="Component/header.jsp" %>
@@ -27,7 +27,7 @@
                 <h1>${data.slide.page1.p1}</h1>
                 <p class="lead">${data.slide.page1.p2}</p>
                 <div>
-                    <a type="button" href="sign_up_contact.html" style="width:200px;"
+                    <a href="sign_up_contact.html" style="width:200px;"
                        class="btn btn-lg btn-success">${data.slide.page1.button1}</a>
                 </div>
             </div>
@@ -38,7 +38,7 @@
                 <h1>${data.slide.page2.p1}</h1>
                 <p class="lead">${data.slide.page2.p2}</p>
                 <div>
-                    <a type="button" href="sign_up_contact.html" style="width:200px;"
+                    <a href="sign_up_contact.html" style="width:200px;"
                        class="btn btn-lg btn-success">${data.slide.page2.button1}</a>
                 </div>
             </div>
@@ -58,7 +58,7 @@
 
 
 <div id="slide_out" class="container">
-    <div style="padding: 15px;">
+    <div style="padding: 0px 15px 0px 15px">
         <h1>${data.slide.page1.p1}</h1>
         <p class="lead">${data.slide.page1.p2}</p>
         <hr/>
@@ -66,7 +66,7 @@
         <h1>${data.slide.page2.p1}</h1>
         <p class="lead">${data.slide.page2.p2}</p>
         <div>
-            <a type="button" href="sign_up_contact.html" style="width:200px;" class="btn btn-lg btn-success">
+            <a href="sign_up_contact.html" style="width:200px;" class="btn btn-lg btn-success">
                 ${data.slide.page2.button1}
             </a>
         </div>
@@ -88,10 +88,12 @@
             <img alt="introduction pic 1" style="width: 100%" src="${imageHost}/image/index/introduction/1.jpg"/>
             <div class="box" style="margin-top: 5px; margin-bottom: 15px; justify-content: space-between;">
                 <div style="width: 49%">
-                    <img alt="introduction pic 2" style="width: 100%" src="${imageHost}/image/index/introduction/2.jpg"/>
+                    <img alt="introduction pic 2" style="width: 100%"
+                         src="${imageHost}/image/index/introduction/2.jpg"/>
                 </div>
                 <div style="width: 49%">
-                    <img alt="introduction pic 3" style="width: 100%" src="${imageHost}/image/index/introduction/3.jpg"/>
+                    <img alt="introduction pic 3" style="width: 100%"
+                         src="${imageHost}/image/index/introduction/3.jpg"/>
                 </div>
             </div>
         </div>
@@ -130,9 +132,11 @@
         <img class="arrow" src="${imageHost}/image/index/comment/arrow.png"/>
         <div class="content">
             <p class="lead">Hello Marisa. I heard a lot about you. <img class="emoji"
-                                                                        src="${imageHost}/image/index/comment/emoji/2.png"/> A
+                                                                        src="${imageHost}/image/index/comment/emoji/2.png"/>
+                A
                 lot of good things.Apparently you are a great
-                Chinese teacher.<img class="emoji" src="${imageHost}/image/index/comment/emoji/2.png"/> I might be interested
+                Chinese teacher.<img class="emoji" src="${imageHost}/image/index/comment/emoji/2.png"/> I might be
+                interested
                 with your
                 services</p>
         </div>
@@ -147,7 +151,6 @@
     </div>
 </div>
 
-</div>
 <%@ include file="Component/footer.jsp" %>
 </body>
 

@@ -7,6 +7,7 @@ public class V {
     public final static String languageText = "languageText";
     public final static String languageName = "languageName";
     public final static String languageList = "languageList";
+    public final static String languageCode = "languageCode";
     public final static String page = "page";
     public final static String msg = "msg";
     public final static String link = "link";

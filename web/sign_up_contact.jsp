@@ -1,7 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <!-- saved from url=(0042)https://v3.bootcss.com/examples/jumbotron/ -->
-<html lang="zh-CN">
+<html lang="${languageCode}">
 <head>
     <%@ include file="Component/header.jsp" %>
     <link href="${host}/css/sign_up_contact.css?v=${version}" rel="stylesheet">
@@ -28,7 +28,7 @@
     </div>
     <div class="row">
         <div class="col-md-6">
-            <img src="${imageHost}/image/contact/gal.jpg" style="width: 100%;"/>
+            <img src="${imageHost}/image/contact/gal.jpg" style="width: 100%; margin-bottom: 15px;"/>
         </div>
         <form method="post" action="${host}/send_message.html" class="col-md-6">
             <input type="text" class="form-control" id="name" name="name" placeholder="${data.contact.form.name}"><br/>

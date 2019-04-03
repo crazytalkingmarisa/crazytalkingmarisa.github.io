@@ -33,15 +33,15 @@ public class C {
         if (isDebug) {
             return DateUtils.dateToString(new Date(), DateUtils.dateStringType1);
         } else {
-            return "20190402";
+            return "20190403";
         }
     }
 
     public static final LinkedHashMap<String, String> languageList = new LinkedHashMap<>();
 
     static {
-        languageList.put("zh-chs", "简体中文");
         languageList.put("en", "english");
+        languageList.put("zh-Hans", "简体中文");
     }
 
 

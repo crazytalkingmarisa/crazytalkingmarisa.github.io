@@ -24,6 +24,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Properties;
+import java.util.function.BiConsumer;
 
 
 @Controller
@@ -36,10 +37,16 @@ public class ManagerController {
             uri += "index.html";
         }
 
+        String languageCode = CookieUtils.get(request, V.language);
+        if (!C.languageList.containsKey(languageCode)) {
+            languageCode = "en";
+        }
+
         ModelAndView modelAndView = new ModelAndView();
-        modelAndView.addObject(V.languageName, getLanguageName(request));
+        modelAndView.addObject(V.languageName, getLanguageName(languageCode));
         modelAndView.addObject(V.languageList, C.languageList);
-        modelAndView.addObject(V.data, getLanguageBean(request));
+        modelAndView.addObject(V.languageCode, languageCode);
+        modelAndView.addObject(V.data, getLanguageBean(languageCode));
         modelAndView.setViewName(uri.substring(1, uri.lastIndexOf(".html")));
         return modelAndView;
     }
@@ -49,9 +56,9 @@ public class ManagerController {
         return toLanguage(request, response, "en");
     }
 
-    @RequestMapping("/zh-chs/*")
+    @RequestMapping("/zh-Hans/*")
     public ModelAndView zh_chs(HttpServletRequest request, HttpServletResponse response) throws Exception {
-        return toLanguage(request, response, "zh-chs");
+        return toLanguage(request, response, "zh-Hans");
     }
 
     private ModelAndView toLanguage(HttpServletRequest request,
@@ -70,6 +77,7 @@ public class ManagerController {
         ModelAndView modelAndView = new ModelAndView();
         modelAndView.addObject(V.languageName, getLanguageName(languageCode));
         modelAndView.addObject(V.languageList, C.languageList);
+        modelAndView.addObject(V.languageCode, languageCode);
         modelAndView.addObject(V.data, getLanguageBean(languageCode));
         modelAndView.setViewName(uri.substring(2 + languageCode.length(), uri.lastIndexOf(".html")));
         return modelAndView;
@@ -141,13 +149,13 @@ public class ManagerController {
         ModelAndView mv = new ModelAndView();
         mv.addObject(V.msg, language.getContact().getForm().getResponse().getTitle());
         mv.addObject(V.link, language.getContact().getForm().getResponse().getLink());
-        mv.setViewName("Component/message");
+        mv.setViewName("contact/message");
         return mv;
     }
 
     private Language getLanguageBean(HttpServletRequest request) throws Exception {
         String languageCode = CookieUtils.get(request, V.language);
-        if (TextUtils.isEmpty(languageCode)) {
+        if (!C.languageList.containsKey(languageCode)) {
             languageCode = "en";
         }
 
@@ -157,12 +165,6 @@ public class ManagerController {
     private Language getLanguageBean(String languageCode) throws Exception {
         Language data = new Gson().fromJson(getLanguageText(languageCode), Language.class);
         return data;
-    }
-
-
-    private String getLanguageName(HttpServletRequest request) throws Exception {
-        String languageCode = CookieUtils.get(request, V.language);
-        return C.languageList.get(languageCode);
     }
 
     private String getLanguageName(String languageCode) {
