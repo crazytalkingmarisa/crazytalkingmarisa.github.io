@@ -6,10 +6,17 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<%
+    String uri = request.getRequestURI();
+    String href = uri.substring(1, uri.lastIndexOf(".jsp"));
+%>
+<c:forEach items="${languageList}" var="item">
+<link rel="alternate" hreflang="${item.key}" href="${host}/${item.key}/<%=href%>.html" />
+</c:forEach>
+<link rel="alternate" hreflang="x-default" href="${host}/<%=href%>.html" />
 
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="${data.header.description}">
 <meta name="author" content="">

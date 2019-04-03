@@ -24,9 +24,6 @@
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
                 <%
-                    String uri = request.getRequestURI();
-                    String href = uri.substring(1, uri.lastIndexOf(".jsp"));
-
                     String[] navigators = {"index", "course", "other_services", "sign_up_contact"};
                 %>
                 <li class="<%=(navigators[0].equals(href)?"active":"")%>">
