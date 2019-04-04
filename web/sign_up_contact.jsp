@@ -50,19 +50,22 @@
         <h1>Information</h1>
     </div>
     <div class="row">
-        <div class="col-md-9 content">
+        <div class="col-md-10 content">
             <div class="box contact_item">
                 <span class="contact_icon glyphicon glyphicon-map-marker" aria-hidden="true"></span>
                 <p>${data.contact.address} </p>
             </div>
             <div class="box contact_item">
                 <span class="contact_icon glyphicon glyphicon-earphone" aria-hidden="true"></span>
-                <p><a href="tel:+8618826050039">+86 188 2605 0039</a></p>
+                <p><a href="tel:+8613570333858">+86 135 7033 3858</a></p>
             </div>
             <div class="box contact_item">
                 <span class="contact_icon glyphicon glyphicon-envelope" aria-hidden="true"></span>
-                <p><a href="mailto:crazytalking@foxmail.com">crazytalking@gmail.com</a></p>
+                <p><a href="mailto:crazytalking@foxmail.com">crazytalking@foxmail.com</a></p>
             </div>
+        </div>
+        <div class="col-md-2">
+            <img style="width: 100%" src="${imageHost}/image/contact/qrcode.jpg">
         </div>
     </div>
 </div>

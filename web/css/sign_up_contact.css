@@ -1,6 +1,5 @@
 .contact_item { 
     align-items: center;
-    margin-bottom: 30px;
 }
 
 
@@ -12,4 +11,12 @@
 .contact_icon {
     margin-right: 20px;
     font-size: 19px;
+}
+
+.content{
+    min-height: 170px;
+    display: -webkit-flex;
+    display: flow;
+    flex-direction: column;
+    justify-content: space-around;
 }

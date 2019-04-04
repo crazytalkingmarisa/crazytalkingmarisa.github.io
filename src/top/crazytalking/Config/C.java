@@ -10,7 +10,7 @@ import java.util.LinkedHashMap;
  * code > 1000 为自定义范围代码
  */
 public class C {
-    public final static boolean isDebug = true;
+    public final static boolean isDebug = false;
 
     public final static String getImageHost() {
         if (isDebug) {
@@ -33,7 +33,7 @@ public class C {
         if (isDebug) {
             return DateUtils.dateToString(new Date(), DateUtils.dateStringType1);
         } else {
-            return "20190403";
+            return "20190404";
         }
     }
 
