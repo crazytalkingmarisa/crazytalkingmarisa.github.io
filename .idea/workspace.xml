@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
+      <artifact name="top.crazytalking:war" />
       <artifact name="top.crazytalking:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61b7f9d9-d458-4788-9d36-329733534c60" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/image/contact/qrcode.jpg" afterDir="false" />
+    <list default="true" id="61b7f9d9-d458-4788-9d36-329733534c60" name="Default Changelist" comment="to java web">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/top/crazytalking/Config/C.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/top/crazytalking/Config/C.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/css/other_services.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/other_services.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/css/sign_up_contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/sign_up_contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sign_up_contact.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/sign_up_contact.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/top/crazytalking/Config/C.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+            <state relative-caret-position="90">
+              <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -243,7 +239,7 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554361795647" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554361816008" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -370,7 +366,7 @@
       <option name="presentableId" value="Default" />
       <updated>1554090550442</updated>
       <workItem from="1554090556886" duration="70450000" />
-      <workItem from="1554296199207" duration="2308000" />
+      <workItem from="1554296199207" duration="2352000" />
     </task>
     <task id="LOCAL-00001" summary="to java web">
       <created>1554130579026</created>
@@ -442,15 +438,21 @@
       <option name="project" value="LOCAL" />
       <updated>1554295572945</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="to java web">
+      <created>1554361812159</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1554361812160</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72758000" />
+    <option name="totallyTimeSpent" value="72802000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="-77" width="1600" height="877" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20667523" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1098,8 +1100,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/top/crazytalking/Config/C.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+        <state relative-caret-position="90">
+          <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
