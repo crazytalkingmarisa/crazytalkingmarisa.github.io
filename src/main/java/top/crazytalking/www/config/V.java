@@ -1,0 +1,19 @@
+package top.crazytalking.www.config;
+
+public class V {
+    public final static String adminId = "adminInfo";
+    public final static String data = "data";
+    public final static String language = "static/language";
+    public final static String languageText = "languageText";
+    public final static String languageName = "languageName";
+    public final static String languageList = "languageList";
+    public final static String languageCode = "languageCode";
+    public final static String page = "page";
+    public final static String msg = "msg";
+    public final static String link = "link";
+    public final static String message = "message";
+    public final static String code = "code";
+    public final static String errorMsg = "errorMsg";
+    public final static String adminName = "adminName";
+    public final static String postImageUrl = "postImageUrl";
+}
