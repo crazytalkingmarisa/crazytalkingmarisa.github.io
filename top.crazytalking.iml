@@ -30,5 +30,7 @@
     <orderEntry type="library" name="mail" level="project" />
     <orderEntry type="library" name="dom4j-2.1.1" level="project" />
     <orderEntry type="library" name="activation" level="project" />
+    <orderEntry type="library" name="javax.annotation" level="project" />
+    <orderEntry type="library" name="activation" level="project" />
   </component>
 </module>

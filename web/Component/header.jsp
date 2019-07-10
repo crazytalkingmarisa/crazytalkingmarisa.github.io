@@ -21,7 +21,7 @@
 <meta name="description" content="${data.header.description}">
 <meta name="author" content="">
 <meta name="keywords" content="${data.header.keywords}">
-<link rel="icon" href="${imageHost}/image/favicon.png">
+<link rel="icon" href="${imageHost}/image/favicon.ico">
 <title>${data.header.title}</title>
 
 <!-- Bootstrap core CSS -->

@@ -1,6 +1,7 @@
 package top.crazytalking;
 
 import com.google.gson.JsonObject;
+import com.sun.mail.util.MailSSLSocketFactory;
 import org.springframework.web.bind.annotation.RequestParam;
 import top.crazytalking.Bean.Request;
 import top.crazytalking.Config.C;
@@ -24,7 +25,6 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Properties;
-import java.util.function.BiConsumer;
 
 
 @Controller
@@ -120,13 +120,20 @@ public class ManagerController {
                                   @RequestParam("tel") String tel,
                                   @RequestParam("need") String need
     ) throws Exception {
-        String to = "732526912@qq.com";
+        String to = "me@knxy-inc.com";
         String from = "732526912@qq.com";
         String host = "smtp.qq.com";
         Properties properties;
         properties = System.getProperties();
         properties.setProperty("mail.smtp.host", host);
         properties.put("mail.smtp.auth", "true");
+
+
+        MailSSLSocketFactory sf = new MailSSLSocketFactory();
+        sf.setTrustAllHosts(true);
+        properties.put("mail.smtp.ssl.enable", "true");
+        properties.put("mail.smtp.ssl.socketFactory", sf);
+
         Session session = Session.getDefaultInstance(properties, new Authenticator() {
             public PasswordAuthentication getPasswordAuthentication() {
                 return new PasswordAuthentication("732526912@qq.com", "fviazkljvrrwbehe"); //发件人邮件用户名、授权码
