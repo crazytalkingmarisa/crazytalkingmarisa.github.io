@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/top.crazytalking.www.iml" filepath="$PROJECT_DIR$/top.crazytalking.www.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../top.knxy.library.java/top.knxy.library.java.iml" filepath="$PROJECT_DIR$/../top.knxy.library.java/top.knxy.library.java.iml" />
-    </modules>
-  </component>
-</project>

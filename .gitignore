@@ -1,13 +1,1 @@
-# mac
 .DS_Store
-
-# idea
-.idea/workspace.xml
-.idea/dataSources
-.idea/dataSources.local.xml
-.idea/dataSources.xml
-
-# spring boot
-target
-out
-
